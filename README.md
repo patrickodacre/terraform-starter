@@ -1,4 +1,8 @@
-# Terraform Stater Project
+# Terraform Starter Project
+
+The goal of this project is to provide a number of starter templates for using Terraform to manage your infrastructure.
+
+The `modules` directory contains all the various reusable modules, while `staging` contains different infrastructure implementations.
 
 ## Usage
 
