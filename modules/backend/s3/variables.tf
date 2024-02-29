@@ -1,3 +1,13 @@
+variable "backend_bucket_policy_name" {
+  description = "Backend Bucket IAM Policy Name"
+  type = string
+}
+
+variable "backend_db_policy_name" {
+  description = "Backend Locks DB IAM Policy Name"
+  type = string
+}
+
 variable "remote_state_bucket_name" {
   description = "Name for Bucket used for state storage."
   type = string
